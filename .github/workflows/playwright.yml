@@ -32,7 +32,7 @@ jobs:
       - name: Start FusionAuth
         uses: fusionauth/fusionauth-github-action@v1
         with:
-          FUSIONAUTH_APP_KICKSTART_DIRECTORY_PATH: kickstart
+          FUSIONAUTH_APP_KICKSTART_DIRECTORY_PATH: fusionauth/latest/kickstart
 
       - name: Install Application
         run: npm i --prefix "./complete-application/"
