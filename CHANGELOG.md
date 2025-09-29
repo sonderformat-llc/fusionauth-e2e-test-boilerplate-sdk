@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.2-rc](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/compare/v0.1.1...v0.1.2-rc) (2025-09-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump fusionauth/fusionauth-app in /fusionauth/latest ([#31](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/issues/31)) ([f616b79](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/commit/f616b791d62a35a350af47d19b3c6a3d176458ec))
+* **deps:** bump fusionauth/fusionauth-app in /fusionauth/latest ([#34](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/issues/34)) ([4d828c6](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/commit/4d828c64e9dc8db5bef1e59ba314bffc74e5461b))
+* **deps:** bump opensearchproject/opensearch in /fusionauth/latest ([#27](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/issues/27)) ([76a5e4b](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/commit/76a5e4bd0f1e4a411b368d7b0ad6501bd2050650))
+* **deps:** bump postgres in /fusionauth/latest ([#28](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/issues/28)) ([aae7506](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/commit/aae7506a683703ed2b891156addfd845dc21f907))
+
 ## [0.1.1](https://github.com/sonderformat-llc/fusionauth-e2e-test-boilerplate-sdk/compare/v0.1.0...v0.1.1) (2025-05-16)
 
 
