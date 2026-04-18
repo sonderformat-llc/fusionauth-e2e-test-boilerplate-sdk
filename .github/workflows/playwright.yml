@@ -22,15 +22,15 @@ jobs:
       actions: read
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
       - name: Setup Node
-        uses: actions/setup-node@v6.3.0
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: lts/*
 
       - name: Start FusionAuth
-        uses: fusionauth/fusionauth-github-action@v1
+        uses: fusionauth/fusionauth-github-action@e00308411d3354f7f7d93eb308261a087ddef5db # v1
         with:
           FUSIONAUTH_APP_KICKSTART_DIRECTORY_PATH: fusionauth/latest/kickstart
 
@@ -44,7 +44,7 @@ jobs:
         run: npm start --prefix "./complete-application/" &
 
       - name: Run Playwright Quickstart E2E Test
-        uses: sonderformat-llc/run-quickstart-e2e-test@v0.2.5
+        uses: sonderformat-llc/run-quickstart-e2e-test@76346d4c87f35fe5c9030ba2ded25e22073c59b2 # v0.2.5
         with:
           FUSIONAUTH_URL: 'http://localhost:9011'
           QUICKSTART_URL: 'http://localhost:3000'
